@@ -1,0 +1,44 @@
+/* 
+    Created on : Aug 10, 2016, 8:46:02 PM
+    Author     : E0015359
+*/
+
+
+.players {
+    width: 100%;
+    border: 10px burlywood ridge;
+    /*max-width: 650px;*/
+    background-color: darkslategrey ;
+}
+
+.players h1{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    margin-left: 0.75em;
+}
+
+.cards img {
+    float: right;
+    padding: 2em;
+    width: 25%;
+}
+
+.front img {
+    -webkit-transform: rotate(0deg);
+}
+
+.front img:hover {
+    -webkit-transform: rotate(-20deg);
+}
+
+aside h3 {
+    color: white;
+    margin: 0 0 0.5em 0.75em;
+    width: 5em;
+}
+
+aside img {
+    margin: 0 0 0 0.75em;
+    width: 10%;
+}
